@@ -2,7 +2,8 @@ The developer of the "SEAMLESS CO-OP" mod for Elden Ring has blocked access for 
 
 The .bat file I provide handles adding a firewall rule to block Internet access for eldenring.exe, then it launches ersc_launcher.exe, and finally, it removes the firewall rule to restore Internet access. This way, you don't have to disconnect your PC from the Internet. 
 
-It only uses Windows PowerShell.
+It only uses Windows PowerShell. Get it on https://github.com/cfrBernard/Seamless-coop-fix/releases
+
 
 ### Instructions: 
 
