@@ -1,4 +1,4 @@
-# SEAMLESS CO-OP Mod Fix for Non-Steam Versions of Elden Ring
+# SEAMLESS CO-OP Mod Fix
 
 ## Overview:
 The developer of the "SEAMLESS CO-OP" mod for Elden Ring has restricted access to non-Steam versions starting with mod version 1.7.8. This causes a "steam datagram relay error" when attempting to open the world in-game. Additionally, downgrading the mod version and launching `ersc_launcher.exe` triggers a message: "This version of seamless co-op (1.X.X) is deprecated and requires an update," as the launcher checks the game and mod version through an Internet connection.
