@@ -11,6 +11,8 @@ To bypass this issue without disconnecting your PC from the Internet, I created 
 
 The script uses only Windows PowerShell for its operations.
 
+---
+
 ### Quick Download:
 Get the `.bat` file on the [Releases](https://github.com/cfrBernard/Seamless-coop-fix/releases) page.
 
