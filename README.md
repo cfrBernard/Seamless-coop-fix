@@ -4,17 +4,16 @@
 
 ---
 
+The developer of the "SEAMLESS CO-OP" mod for Elden Ring has restricted access to non-Steam versions starting with mod version 1.7.8. This causes a "steam datagram relay error" when attempting to open the world in-game. Additionally, downgrading the mod version and launching `ersc_launcher.exe` triggers a message: "This version of seamless co-op (1.X.X) is deprecated and requires an update," as the launcher checks the game and mod version through an Internet connection.
+
 [**Download the latest version here**](https://github.com/cfrBernard/Seamless-coop-fix/releases)
 
 ![Version](https://img.shields.io/badge/version-v1.0.0-blue)
 ![License](https://img.shields.io/github/license/cfrBernard/MaskMapWizard)
 
-## Overview:
-The developer of the "SEAMLESS CO-OP" mod for Elden Ring has restricted access to non-Steam versions starting with mod version 1.7.8. This causes a "steam datagram relay error" when attempting to open the world in-game. Additionally, downgrading the mod version and launching `ersc_launcher.exe` triggers a message: "This version of seamless co-op (1.X.X) is deprecated and requires an update," as the launcher checks the game and mod version through an Internet connection.
 
 
-
-### Solution:
+## Solution:
 To bypass this issue without disconnecting your PC from the Internet, I created a `.bat` file that:
 1. Adds a firewall rule to block Internet access for `eldenring.exe`.
 2. Launches `ersc_launcher.exe`.
