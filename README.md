@@ -2,8 +2,17 @@
   <img src="ER.png" alt="Elden Ring .png" />
 </p>
 
+---
+
+[**Download the latest version here**](https://github.com/cfrBernard/Seamless-coop-fix/releases)
+
+![Version](https://img.shields.io/badge/version-v1.0.0-blue)
+![License](https://img.shields.io/github/license/cfrBernard/MaskMapWizard)
+
 ## Overview:
 The developer of the "SEAMLESS CO-OP" mod for Elden Ring has restricted access to non-Steam versions starting with mod version 1.7.8. This causes a "steam datagram relay error" when attempting to open the world in-game. Additionally, downgrading the mod version and launching `ersc_launcher.exe` triggers a message: "This version of seamless co-op (1.X.X) is deprecated and requires an update," as the launcher checks the game and mod version through an Internet connection.
+
+
 
 ### Solution:
 To bypass this issue without disconnecting your PC from the Internet, I created a `.bat` file that:
@@ -11,12 +20,7 @@ To bypass this issue without disconnecting your PC from the Internet, I created 
 2. Launches `ersc_launcher.exe`.
 3. Removes the firewall rule afterward to restore normal Internet access.
 
-The script uses only Windows PowerShell for its operations.
-
----
-
-### Quick Download:
-Get the `.bat` file on the [Releases](https://github.com/cfrBernard/Seamless-coop-fix/releases) page.
+> The script uses only Windows PowerShell for its operations.
 
 ---
 
@@ -42,4 +46,4 @@ Get the `.bat` file on the [Releases](https://github.com/cfrBernard/Seamless-coo
 
 ---
 
-**Disclaimer**: Use this fix at your own discretion. Blocking and restoring Internet access via PowerShell scripts may have security implications; make sure you understand and are comfortable with the actions performed.
+> **Disclaimer**: Use this fix at your own discretion. Blocking and restoring Internet access via PowerShell scripts may have security implications; make sure you understand and are comfortable with the actions performed.
