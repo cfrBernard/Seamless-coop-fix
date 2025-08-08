@@ -8,8 +8,8 @@ The developer of the "SEAMLESS CO-OP" mod for Elden Ring has restricted access t
 
 [**Download the latest version here**](https://github.com/cfrBernard/Seamless-coop-fix/releases)
 
-![Version](https://img.shields.io/badge/version-v1.0.0-blue)
-![License](https://img.shields.io/github/license/cfrBernard/MaskMapWizard)
+[![Version](https://img.shields.io/badge/version-v1.0.0-blue)](https://github.com/cfrBernard/Seamless-coop-fix/releases)
+[![License](https://img.shields.io/github/license/cfrBernard/MaskMapWizard)](./LICENSE.md)
 
 
 
@@ -46,3 +46,4 @@ To bypass this issue without disconnecting your PC from the Internet, I created 
 ---
 
 > **Disclaimer**: Use this fix at your own discretion. Blocking and restoring Internet access via PowerShell scripts may have security implications; make sure you understand and are comfortable with the actions performed.
+
